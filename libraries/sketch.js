@@ -5,17 +5,17 @@ let mvr3;
 
 
 function setup() {
-  createCanvas(600, 600);
-  mvr1 = new Mvr(0, 0, 0, 0.003, 220, 255, 200); //start, posx, posy, inc, clrR, clrG, clrB
-  mvr2 = new Mvr(1, 50, 100, 0.003, 255, 174, 170);
-  mvr3 = new Mvr(2, 100, 200, 0.003, 255, 255, 255);
+  createCanvas(200, 200);
+  mvr1 = new Mvr(0, 0, 0, 0.005, 0, 0, 0); //start, posx, posy, inc, clrR, clrG, clrB
+  mvr2 = new Mvr(2, 20, 25, 0.003, 0, 0, 0);
+  mvr3 = new Mvr(0, 40, 50, 0.004, 0, 0, 0);
 
 
 }
 
 function draw() {
 
-  background(16, 11, 10);
+  background(255);
   stroke(0);
 
 
